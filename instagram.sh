@@ -39,5 +39,5 @@ echo $HUJAU"Apakah username $target sudah benar?"
 echo y/n?
 read confirm
 echo
-cek_target=`curl -s http://zpro.000webhostapp.com/api/cek_list_ig.php?cari=$target`
+echo cek_target=`curl -s http://zpro.000webhostapp.com/api/cek_list_ig.php?cari=$target`
 echo $MERAH$cek_target$N
